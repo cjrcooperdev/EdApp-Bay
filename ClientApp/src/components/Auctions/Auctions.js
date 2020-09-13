@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import AuctionItems from "./AuctionItems";
+import AuctionItems from "../AuctionItem/AuctionItem";
 
 export default function Auctions() {
   const [auctions, setAuction] = useState(false);

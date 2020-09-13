@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router';
 import { Layout } from './components/Layout';
-import Auctions from './components/Auctions';
+import Auctions from './components/Auctions/Auctions';
 
 export default class App extends Component {
   static displayName = App.name;
